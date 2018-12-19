@@ -1,0 +1,36 @@
+[package]
+name = "amethyst_metrics"
+version = "0.1.0"
+authors = [
+	"yet to be entered"
+]
+edition = "2018"
+description = "Amethyst networking crate"
+keywords = ["networking", "specs", "ecs", "amethyst", "serialization"]
+categories = ["game-engines"]
+
+readme = "README.md"
+documentation = "https://www.amethyst.rs/doc/master/doc/amethyst_metrics/index.html"
+homepage = "https://www.amethyst.rs/"
+repository = "https://github.com/amethyst/amethyst"
+license = "MIT/Apache-2.0"
+
+[features]
+nightly = [ "amethyst_core/nightly" ]
+
+[dependencies]
+amethyst_core = { path = "../amethyst_core", version = "0.5" }
+allan = "0.2.2"
+clocksource = "0.4.0"
+fnv = "1.0.5"
+getopts = "0.2.14"
+heatmap = "0.6.5"
+histogram = "0.6.6"
+log = "0.3.8"
+mio = "0.6.9"
+mio-extras = "2.0.5"
+mpmc = "0.1.2"
+tiny_http = "0.5.8"
+time = "0.1.37"
+waterfall = "0.7.0"
+tic = "0.6.0"

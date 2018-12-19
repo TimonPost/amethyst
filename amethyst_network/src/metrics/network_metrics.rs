@@ -49,7 +49,6 @@ impl NetworkMetrics {
     }
 }
 
-
 struct MetricsScheduler {
     metrics_sender: SyncSender<NetworkMetricObject>,
     send_buffer_counter: u16,
