@@ -1,5 +1,5 @@
-//extern crate ca
-//
-//mod bundle;
-//
-//pub use self::bundle::MetricsBundle;
+mod bundle;
+mod metrics;
+
+pub use self::bundle::*;
+pub use self::bundle::MetricsBundle;

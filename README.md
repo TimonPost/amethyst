@@ -1,5 +1,23 @@
 <img align="left" width="64px" src="book/src/images/amethyst_emblem.png" />
 
+```rust
+let game_data = GameDataBuilder::default()
+    .with_bundle(
+        MetricsBundle::new()
+           .with_metric(ConsoleMetrics::new())
+           .with_metric(CsvMetric::new())
+           .with_metric(InfluxDbMetrics::new());
+
+let game_data = GameDataBuilder::default()
+    .with_bundle(
+         MetricsBundle::new(vec![ConsoleMetrics::new(), CsvMetric::new(), InfluxDbMetrics::new()]
+     );
+
+    .with_bundle(
+        InputBundle::<String, String>::new().with_bindings_from_file(&key_bindings_path)?,
+    )
+```
+
 # Amethyst
 
 [![Build Status][s1]][tc] [![Crates.io][s2]][ci] [![docs page][docs-badge]][docs] [![MIT/Apache][s3]][li] [![Join us on Discord][s4]][di] ![Lines of Code][s6]

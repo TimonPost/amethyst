@@ -13,11 +13,14 @@ pub struct MetricsBundle<T> {
 }
 
 impl<T> MetricsBundle<T> {
-    /// Creates a new NetworkBundle that connects to the `addr`.
     pub fn new() -> Self {
         MetricsBundle {
 
         }
+    }
+
+    pub fn whit_metrics(metrics: NetworkMetricObject + Send + Sync>,) {
+
     }
 }
 
