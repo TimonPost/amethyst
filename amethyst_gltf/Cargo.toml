@@ -20,7 +20,7 @@ amethyst_assets = { path = "../amethyst_assets/", version = "0.6.0" }
 amethyst_animation = { path = "../amethyst_animation/", version = "0.5.0" }
 amethyst_renderer = { path = "../amethyst_renderer/", version = "0.10.0" }
 amethyst_core = { path = "../amethyst_core/", version = "0.5.0" }
-base64 = "0.9"
+base64 = "0.10"
 fnv = "1"
 gltf = "0.11"
 gfx = "0.17"
