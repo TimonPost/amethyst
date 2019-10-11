@@ -5,6 +5,7 @@
 pub mod laminar;
 pub mod tcp;
 pub mod udp;
+pub mod in_memory;
 
 const NETWORK_SIM_TIME_SYSTEM_NAME: &str = "simulation_time";
 const NETWORK_SEND_SYSTEM_NAME: &str = "network_send";
