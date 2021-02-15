@@ -116,7 +116,7 @@ ron = "0.5"
 specs-derive = "0.4"
 
 [build-dependencies]
-vergen = "3.0"
+vergen = "4.0"
 
 [[example]]
 name = "hello_world"
